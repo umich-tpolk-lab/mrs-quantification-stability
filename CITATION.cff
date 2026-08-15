@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the associated manuscript."
+title: "MRS quantification choices: longitudinal stability and change - data and code"
+type: software
+authors:
+  - family-names: Abbasi
+    given-names: Silvia
+  - family-names: Reardon
+    given-names: Noah
+  - family-names: Wyatt
+    given-names: Kayla
+  - family-names: Liu
+    given-names: Bingjie
+  - family-names: Kim
+    given-names: Esther
+  - family-names: Polk
+    given-names: Thad A.
+repository-code: "ADD_GITHUB_URL_BEFORE_RELEASE"
+version: "0.1.0-draft"
