@@ -15,5 +15,5 @@ authors:
     given-names: Esther
   - family-names: Polk
     given-names: Thad A.
-repository-code: "ADD_GITHUB_URL_BEFORE_RELEASE"
+repository-code: "https://github.com/umich-tpolk-lab/mrs-quantification-stability"
 version: "0.1.0-draft"
