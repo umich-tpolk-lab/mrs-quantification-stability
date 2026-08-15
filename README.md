@@ -50,33 +50,12 @@ The release should contain:
   - GABA+: UNC 0.535, CSF 0.314, TC 0.293, ATC 0.301, CR 0.398.
   - Glx: UNC 0.482, CSF 0.227, TC 0.207, ATC 0.193, CR 0.378.
 
-See `validation/RELEASE_AUDIT.md` for checks already performed on the prepared public files.
-
-## Important before making the repository public
-
-**Do not publish this package until the study PI/IRB/HRPP has confirmed that unrestricted public sharing of these de-identified individual-level derived data is permitted under the participants' consent and study approvals.**
-
-The public extract has been minimized substantially, but de-identification is an institutional/research-governance determination, not merely a file-cleaning exercise.
-
-A code/data license is also intentionally not selected in this draft. The authors should choose the licenses before the public GitHub/Zenodo release.
-
-## Suggested repository workflow
-
-1. Review this package privately.
-2. Run `Rscript run_all.R` in R 4.6.0 and compare the generated CSVs with the manuscript.
-3. Resolve any numerical or labeling discrepancies.
-4. Obtain the required data-sharing approval.
-5. Create a private GitHub repository and upload this package.
-6. After final review, make the repository public.
-7. Create a versioned GitHub release and archive it with Zenodo for a DOI.
-8. Add the DOI to the manuscript's Data and Code Availability statement.
-
 ## Files
 
 - `data/mrs_measurements.csv` — de-identified, manuscript-only hemisphere-level derived MRS/tissue data.
 - `data/gannet_qc_metrics.csv` — de-identified spectrum-level QC metrics.
 - `data/participants.csv` — public participant ID and rounded inter-session interval only.
 - `R/reproduce_manuscript.R` — primary numerical analysis.
-- `R/make_variance_figure.R` — supplied variance figure script.
-- `R/make_longitudinal_figure.R` — supplied longitudinal figure script.
+- `R/make_figure4_variance.R` — supplied variance figure script.
+- `R/make_figure5_longitudinal.R` — supplied longitudinal figure script.
 - `run_all.R` — one-command entry point.
